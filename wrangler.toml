@@ -1,0 +1,16 @@
+name = "mail-portal"
+main = "src/index.js"
+compatibility_date = "2025-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+DOMAIN = "sambat.xyz"
+APP_BASE_URL = "https://portal.sambat.xyz"
+DEFAULT_ALIAS_LIMIT = "3"
+SESSION_TTL_SECONDS = "1209600"
+RESET_TTL_SECONDS = "3600"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mail_portal"
+database_id = "5ff72936-f970-4cfc-ae0f-e7c2d8a82877"
